@@ -16,9 +16,4 @@ export class TabComponent {
   close() {
     this.tabAction.emit({ index: this.index, action: 'remove' });
   }
-
-  rename(newName) {
-    this.tabAction.emit({ name: newName, index: this.index, action: 'rename' });
-  }
-
 }

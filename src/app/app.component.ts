@@ -24,8 +24,6 @@ export class AppComponent {
 	tabAction(event) {
 		if (event.action.toLowerCase() === 'remove') {
 			this.removeTab(event.index);
-		} else if (event.action.toLowerCase() === 'rename') {
-			this.renameTab(event.index, event.name);
 		}
 	}
 
@@ -44,10 +42,6 @@ export class AppComponent {
 	checkForArrow() {
 		this.showLeftArrow();
 		this.showRightArrow();
-	}
-
-	renameTab(index, tabName) {
-
 	}
 
 	selectTab(tabIndex) {
