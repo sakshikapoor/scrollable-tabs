@@ -1,3 +1,19 @@
+# Steps to Run 
+
+*   Run `npm i` to install all the dependencies
+*   Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
+
+
+# Features
+
+* Click on `+` to add a tab
+* Hover on a tab and click `x` to close it
+* Drag and drop functionality implemented using Angular Material
+* Scrolling of tabs functionality
+* Click on a tab to scroll into view if half-hidden
+* Animation on the selection of a tab
+* Min 1 Max 10 tabs can be added
+
 # Tabs
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
