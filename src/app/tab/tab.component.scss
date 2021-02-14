@@ -1,0 +1,33 @@
+.close {
+    display: none;
+    &:hover {
+        display: block;
+        position: absolute;
+        right: 10px;
+    }
+}
+.tab-container {
+    width: 200px;
+    background: #f3f3f3;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border: 1px solid #dadada;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+        background-color: #e8e8e8;
+    }
+    
+    &:hover {
+        .close {
+            display: block;
+            position: absolute;
+            right: 10px;
+        }
+    }
+}
+
